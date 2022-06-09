@@ -1,1 +1,38 @@
 /* my style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.nav-panel {
+  height: 50px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(17, 0, 255, 0.671);
+  color: #fff;
+}
+.nav-panel li {
+  margin-right: 80px;
+}
+.nav-panel a:link {
+  color: #fff;
+  text-decoration: none;
+}
+.nav-panel a:visited {
+  color: #fff;
+}
+.nav-panel a:hover {
+  color: rgb(205, 228, 74);
+}
+.nav-panel a:active {
+  color: rgb(205, 228, 74);
+}
