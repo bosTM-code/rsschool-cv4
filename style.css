@@ -35,7 +35,7 @@
   color: #fff;
 }
 .nav-panel a:active {
-  color: rgba(205, 228, 74, 0);
+  color: rgba(0, 0, 0, 0.363);
 }
 
 .head-1 {
@@ -88,4 +88,302 @@
 header {
   height: 300px;
   border-bottom: solid #6e5d2e2c 12px;
+  margin-bottom: 25px;
+}
+
+.contacts {
+  width: 620px;
+  float: left;
+  position: relative;
+  border-bottom: solid 1px;
+  height: 250px;
+}
+.summary {
+  width: 620px;
+  float: right;
+  border-bottom: solid 1px;
+  height: 250px;
+  position: relative;
+}
+
+.summary-box {
+  position: absolute;
+  left: 20px;
+}
+
+.contact-list {
+  list-style: none;
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+.contact-list li {
+  margin-bottom: 15px;
+}
+
+.summary-p {
+  margin-top: 20px;
+  line-height: 25px;
+  font-size: 15px;
+}
+.contact-box {
+  position: absolute;
+  left: 20px;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Quicksand", sans-serif;
+  color: #00640085;
+}
+
+.first-floor {
+  margin-bottom: 25px;
+}
+
+.clear {
+  clear: both;
+}
+
+.skills {
+  width: 620px;
+  float: left;
+  position: relative;
+  border-bottom: solid 1px;
+  height: 200px;
+}
+
+.skills ul {
+  list-style: none;
+  margin-top: 20px;
+}
+
+.skills ul li {
+  margin-top: 15px;
+}
+
+.code {
+  width: 620px;
+  float: right;
+  border-bottom: solid 1px;
+  height: 200px;
+  position: relative;
+}
+.code-box {
+  position: absolute;
+  left: 20px;
+}
+.code-written {
+  line-height: 25px;
+}
+
+.code h1 {
+  margin-bottom: 20px;
+}
+
+.skills-box {
+  position: absolute;
+  left: 20px;
+}
+
+.second-floor {
+  margin-bottom: 25px;
+}
+
+.courses {
+  width: 620px;
+  float: left;
+  position: relative;
+  border-bottom: solid 1px;
+  height: 200px;
+}
+
+.projects {
+  width: 620px;
+  float: right;
+  position: relative;
+  border-bottom: solid 1px;
+  height: 200px;
+}
+
+.courses ul {
+  margin-top: 20px;
+  list-style: none;
+}
+
+.courses ul li {
+  margin-top: 15px;
+}
+
+.courses-box {
+  position: absolute;
+  left: 20px;
+}
+
+.projects ul {
+  margin-top: 20px;
+  list-style: none;
+}
+
+.projects ul li {
+  margin-top: 15px;
+}
+
+.projects-box {
+  position: absolute;
+  left: 20px;
+}
+
+.third-floor {
+  margin-bottom: 25px;
+}
+
+.education {
+  width: 620px;
+  float: left;
+  height: 70px;
+  position: relative;
+}
+
+.education-my {
+  margin-top: 20px;
+}
+
+.english-my {
+  margin-top: 20px;
+}
+
+.english {
+  width: 620px;
+  float: right;
+  position: relative;
+  height: 70px;
+}
+
+.english-box {
+  position: absolute;
+  left: 20px;
+}
+
+.education-box {
+  position: absolute;
+  left: 20px;
+}
+
+.forth-floor {
+  margin-bottom: 40px;
+}
+
+footer {
+  height: 65px;
+  background: rgba(16, 70, 0, 0.507);
+}
+.github {
+  width: 480px;
+  height: 65px;
+  float: left;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.c-2022 {
+  color: #fff;
+  padding-right: 30px;
+}
+
+.rs-logo {
+  width: 100px;
+  height: auto;
+  margin-left: 1000px;
+  margin-top: 13px;
+}
+
+.bosTM:link {
+  color: #fff;
+  text-decoration: none;
+}
+.bosTM:visited {
+  color: #fff;
+}
+.bosTM:hover {
+  color: #fff;
+}
+.bosTM:active {
+  color: rgba(0, 0, 0, 0.363);
+}
+
+.email:link {
+  color: #006400;
+  text-decoration: none;
+}
+.email:visited {
+  color: #006400;
+}
+.email:hover {
+  color: #006400;
+}
+.email:active {
+  color: rgba(0, 0, 0, 0.397);
+}
+.github-link:link {
+  color: #006400;
+  text-decoration: none;
+}
+.github-link:visited {
+  color: #006400;
+}
+.github-link:hover {
+  color: #006400;
+}
+.github-link:active {
+  color: rgba(0, 0, 0, 0.397);
+}
+
+.telegram {
+  color: #006400;
+}
+
+.discord {
+  color: #006400;
+}
+
+.green {
+  color: #006400;
+}
+
+.email-icon {
+  width: 19px;
+  height: auto;
+  float: left;
+}
+
+.location-logo {
+  width: 19px;
+  height: auto;
+  float: left;
+}
+
+.github-logo {
+  width: 19px;
+  height: auto;
+  float: left;
+}
+
+.telegram-logo {
+  width: 19px;
+  height: auto;
+  float: left;
+}
+
+.discord-logo {
+  width: 19px;
+  height: auto;
+  float: left;
+}
+
+.square-logo {
+  width: 14px;
+  height: auto;
+  float: left;
 }
